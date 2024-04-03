@@ -4,7 +4,7 @@ pragma solidity 0.8.24;
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 
-contract NFTMarketplace is ERC721URIStorage {
+contract ArtHive is ERC721URIStorage {
     uint256 private _tokenCounter;
     uint256 private _itemSoldCounter;
     uint256 public listingPrice = 0.0025 ether;
