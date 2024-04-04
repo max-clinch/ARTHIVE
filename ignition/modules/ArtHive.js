@@ -1,6 +1,6 @@
 const { buildModule } = require("@nomicfoundation/hardhat-ignition/modules");
 
-module.exports = buildModule("ArtHiveModule", (m) => {
+module.exports = buildModule("ArtHiveModule", (m) => { 
   const ArtHive = m.contract("ArtHive")
   const listingPrice = m.getParameter("listingPrice", "0.0025 ether"); // Corrected the value
 
